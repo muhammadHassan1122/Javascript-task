@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Items</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+
+<header>
+        <nav>
+            <div class="logo">
+                <h1>Clothes</h1>
+            </div>
+            <div class="search__bar__header">
+                <input type="text">
+                <input type="button" value="search">
+            </div>
+            <div class="cart__header__desktop">
+                <a href="wishList.html"><i class="fas fa-shopping-cart"></i></a>
+                <span>50</span>
+            </div>
+        </nav>
+    </header>
+    <div class="main__navigations">
+        <div class="main__navigations__div">
+            <ul class="main__navigations__div__ul">
+                <li class="main__navigations__div__li on__mobile_d_none" style="font-weight: bold;"><a href="index.html">Home</a></li>
+                <li style="font-weight: bold;">
+                    <a href="Card.html">Cart Items</a>
+                 </li>
+               
+                <div class="bars save__from__right">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="mobile__nav__fade__and__show">
+        <div class="mobile__nav__fade__and__show__text">
+            <li><a href="">Home</a></li>
+            
+        </div>
+    </div>
+    <div class="mobile__nav__fade__and__show__circle"></div>
+
+
+
+
+    <h1>Your Shopping Cart</h1>
+    <table id="cart-table">
+        <thead>
+            <tr>
+                <th>Product Image</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="cart-body">
+            <!-- Cart items will be added here dynamically -->
+        </tbody>
+    </table>
+    <button id="clear-cart">Clear Cart</button>
+    <button class="Btn-2" > <a style="text-decoration: none; color: white;" href="CheckOut.html">CheckOut</a></button>
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
